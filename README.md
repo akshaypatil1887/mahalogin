@@ -1,4 +1,4 @@
 
 # MAHALogin
 this is for git hooks  of mahalogin
-1st commi
+1st commit
