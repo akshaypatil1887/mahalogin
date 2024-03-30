@@ -7,4 +7,8 @@ stage('maven install') {
    sh 'mvn install'
 }
 
+stage('print omshanti') {
+    sh 'echo \'Om Shanti ShivBaba\''
+}
+
 }
