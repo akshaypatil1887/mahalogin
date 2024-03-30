@@ -11,4 +11,8 @@ stage('print omshanti') {
     sh 'echo \'Om Shanti ShivBaba\''
 }
 
+stage('Send Email'){
+mail bcc: '', body: 'This is Testing Email', cc: '', from: 'akshay55551.ap@gmail.com', replyTo: '', subject: 'Test Email', to: 'akshaypatil1887@gmail.com'
+}
+
 }
